@@ -22,6 +22,11 @@ namespace BatterySaverAppKiller
 
         static void Main(string[] args)
         {
+            Process[] clones = Process.GetProcessesByName(Process.GetCurrentProcess().ProcessName);
+            if (clones.Length > 1)
+                foreach (Process process in clones)
+                    process.Kill();
+
             //INIT
             path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             CreateProcessesListFile();

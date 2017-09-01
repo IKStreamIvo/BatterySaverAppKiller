@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{433832AB-FE4B-47A9-8CB6-B0605F466491}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_BatterySaverAppKiller_Pixel</RootNamespace>
-    <AssemblyName>_BatterySaverAppKiller_Pixel</AssemblyName>
+    <RootNamespace>_BatterySaverAppKiller</RootNamespace>
+    <AssemblyName>BatterySaverAppKiller</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
